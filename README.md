@@ -15,3 +15,10 @@
 ```
   const [character, setCharacter] = React.useState<CharacterType | null>(null);
 ```
+
+###### Change Event
+```
+changeCount = (event: ChangeEvent<HTMLInputElement>) => {
+    this.setState({count: +event.target.value});
+  }
+```
