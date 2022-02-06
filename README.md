@@ -48,3 +48,8 @@ slicesPerPie: number;
 pizzasNeeded: number 
 */
 ```
+
+###### Change Event Value From String to Number
+```
++event.target.value
+```
