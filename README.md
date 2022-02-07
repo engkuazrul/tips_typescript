@@ -53,3 +53,21 @@ pizzasNeeded: number
 ```
 +event.target.value
 ```
+
+###### Declare Dynamic Key
+```
+type Themes = {
+  [key: string]: React.CSSProperties;
+}
+
+const defaultTheme: Themes = {
+  light: {
+    backgroundColor: 'white',
+    color: 'black'
+  },
+  dark: {
+    backgroundColor: '#555',
+    color: 'white'
+  }
+}
+```
